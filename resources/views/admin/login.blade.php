@@ -87,7 +87,7 @@
 								</p>
                                 <p class="change_link">
 									Not a member yet ?
-									<a href="{{url('/admin-register')}}">Join us</a>
+									<a href="{{url('/admin')}}">Join us</a>
 								</p>
                             </form>
                         </div>
