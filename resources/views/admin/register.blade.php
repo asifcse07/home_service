@@ -90,10 +90,10 @@
                                 <p class="signin button"> 
 									<input type="submit" value="Sign up"/> 
 								</p>
-                                {{-- <p class="change_link">  
+                                <p class="change_link">  
 									Already a member ?
-									<a href="#tologin" class="to_register"> Go and log in </a>
-								</p> --}}
+									<a href="{{url('/admin-login')}}"> Go and log in </a>
+								</p>
                             </form>
                         </div>
 						

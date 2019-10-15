@@ -50,7 +50,7 @@ $(function(){
 	$('.saveSubServiceBtn').on('click', function(e){
 		e.preventDefault();
 		e.stopPropagation();
-		$.post('/add-sub-service', $('.addServiceForm').serialize(), function(data){
+		$.post('/add-sub-service', $('.addSubServiceForm').serialize(), function(data){
 			if(data.status == 'success'){
 				$("#subServiceModal .close").click()
 			}

@@ -99,7 +99,7 @@
           <h4><span class="glyphicon glyphicon-lock"></span> Add Service</h4>
         </div>
         <div class="modal-body" style="padding:40px 50px;">
-            <form role="form" class="addServiceForm">
+            <form role="form" class="addSubServiceForm">
                 <input type="hidden" name="_token" id="token" value="{{ csrf_token() }}">
                 <input type="hidden" name="parent_id" class="parent_id">
                 <div class="form-group subServiceDiv">
