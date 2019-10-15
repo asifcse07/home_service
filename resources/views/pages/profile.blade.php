@@ -1,0 +1,1 @@
+<a href="<?php echo e((\Auth::check())? url('/logout/'.\Auth::user()->email):''); ?>" class="btn btn-default btn-flat">Sign out</a>
